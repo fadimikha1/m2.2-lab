@@ -1,4 +1,17 @@
 h1{
   border-color: #d3e644;
   border-style: dashed;
+  border-width: 5px;
+  color: #ff0000;
+}
+
+button{
+  color: #ff1e1e;
+  font-size: large;
+}
+
+ul{
+  list-style-type: bullet;
+  color: red;
+  font-size: 20px;
 }

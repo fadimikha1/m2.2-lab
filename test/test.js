@@ -47,4 +47,16 @@ QUnit.module('main.js tests', function() {
         assert.equal(result, expected, 'add(2, -3) should return -1');
     });
 
+    //can also add non integers(basically stuff with decimals)
+    QUnit.test('add should return the sum of 2 numbers with decimals', function(assert) {
+        //Arrange
+        const num1 = 2.2;
+        const num2 = 3.2;
+        const expected = 5.4;
+        //Act
+        const result = add(num1, num2);
+        //Assert
+        assert.equal(result, expected, 'add(2.2, 3.2) should return 5.4');
+    });
+
 });
